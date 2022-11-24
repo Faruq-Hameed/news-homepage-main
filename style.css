@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+
+/*  */
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    padding: 8%;
+    overflow-x: hidden;
+}
+
+.flex-grp{
+ display: flex;
+ justify-content: space-between;
+}
+
+ul{
+    min-width: 400px;
+    list-style-type:none;
+    font-size:15px;
+    justify-content: space-around
+}
+li{
+    width: fit-content;
+}
+li:hover, a:hover{
+    cursor: pointer;
+    color: hsl(5, 85%, 63%);
+    font-weight: 700;
+}
+
+.image{
+    width: 100%;
+}
+
+
+.upper-container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 2%;
+    padding: 3vw 1vw;
+
+}
+
+.about-web3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2%;
+    margin-top: 2vw;
+
+}
+
+h1{
+    font-weight: 800;
+    font-size: clamp(24px,4vw, 50px);
+    color: hsl(240, 100%, 5%);
+}
+
+/* for all paragraph */
+p, li{
+    font-size: 15px;
+    color:  hsl(236, 13%, 42%);
+
+}
+
+.more-about-web3{
+display: flex;
+flex-direction: column;
+row-gap: 4vw;
+line-height: 2vw;
+}
+
+.btn{
+    background-color: hsl(5, 85%, 63%);
+    font-weight: 400;
+    font-size: 15px;
+    height: fit-content;
+    width: 70%;
+    letter-spacing: 0.6vw;
+    padding: 1vw;
+    color: hsl(36, 100%, 99%);
+    border: none;
+
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: hsl(240, 100%, 5%);
+}
+
+.new-container{
+    background-color: hsl(240, 100%, 5%);
+    padding: 1.2vw;
+    
+}
+
+h2{
+    color: hsl(35, 77%, 62%);
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.new-container div{
+    display: grid;
+    align-content: space-evenly;
+    height: 30%;
+    color: hsl(36, 100%, 99%);
+}
+
+h3{
+    font-weight: 800;
+}
+h3 a:hover{
+    color: hsl(35, 77%, 62%);
+}
+
+.new-container p{
+    color: hsl(36, 100%, 99%)
+}
+
+.downsides-text{
+    border: 2px solid hsl(233, 8%, 79%);
+    border-left: none;
+    border-right: none;
+
+}
+
+.bottom-container {
+    column-gap: 1.5vw;
+}
+.bottom-grp {
+    column-gap: 1vw;
+    height: 130px;
+    margin-bottom: 2vw;
+
+}
+
+.bottom-img{
+    height: 130px;
+    max-height: 130px;
+    width: 12vw;
+}
+
+.bottom-img img{
+    height: inherit;
+}
+
+.bottom-texts{
+
+    line-height: 2.6vw;
+}
+
+.bottom-texts a:hover{
+    font-weight: 800;
+}
